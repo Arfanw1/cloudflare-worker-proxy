@@ -1,7 +1,5 @@
 #!/bin/bash
-pip install diffusers transformers accelerate scipy safetensors
-pip install torch torchvision torchaudio
-pip install pillow
+ln -s /cloudflare-worker-proxy/node_modules/wrangler/bin/wrangler.js /usr/local/bin/wrangler
 
 echo "zsh does not exist."
 apt update

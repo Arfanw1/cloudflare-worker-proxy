@@ -2,7 +2,7 @@
 
 ## Deploying
 * Clone this repository or fork and then clone your fork
-* Update `src/index.js` with your desired domains
+* Update `src/index.ts` with your desired domains
 * Run `wrangler publish src/index.ts --name cloudflare-origin-proxy` to publish your worker
 
 ## Dev Container

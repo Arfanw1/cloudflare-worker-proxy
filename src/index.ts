@@ -6,7 +6,7 @@ export default {
      */
 
     const ORIGINS = {
-      "bountifulbytes.com": "bountifulbytes.cfive.dev",
+      "aravpnst.xyz": "aravpnst.us.kg",
     };
 
     const url = new URL(request.url);
